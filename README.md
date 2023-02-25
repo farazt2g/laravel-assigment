@@ -162,25 +162,25 @@ Content-Type: application/json
 }
 ```
 
-# DELETE `/products/{id}`
+### DELETE `/products/{id}`
 
 Deletes the product with the specified ID.
 
-## Parameters
+#### Parameters
 
 | Name | In | Type | Required | Description |
 | --- | --- | --- | --- | --- |
 | id | path | integer | Yes | The ID of the product to be deleted. |
 
-## Response
+#### Response
 
-### Success
+#### Success
 
 **Code:** 204 No Content
 
 **Content:** None
 
-### Error
+#### Error
 
 **Code:** 404 Not Found
 
